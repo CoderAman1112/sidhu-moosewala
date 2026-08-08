@@ -58,7 +58,7 @@
 .btn-1{
     padding: 20px 30px;
     border: 0;
-    background: url(./src/btn-img.png);
+    background: url(/src/btn-img.png);
     background-size: cover;
     cursor: pointer;
     margin: 30px 50px;
@@ -71,7 +71,7 @@ nav{
     align-items: center;
     padding: 10px 0;
     max-height: 70px;
-    background: url("./src/nav-bg.png");
+    background: url("/src/nav-bg.png");
     border-bottom: 2px solid rgba(53, 53, 53, 0.562);
 }
 nav div{
@@ -104,7 +104,7 @@ nav svg:hover{
     display: flex;
     align-items: center;
     padding: 0 10%;
-    background: url(./src/bg-1.png);
+    background: url(/src/bg-1.png);
     overflow: hidden;
 }
 
@@ -114,7 +114,7 @@ nav svg:hover{
     align-items: center;
     padding: 0 10%;
     overflow: hidden;
-    background: url(./src/bg-3.png);
+    background: url(/src/bg-3.png);
 }
 
 .sec-3{
@@ -153,7 +153,7 @@ nav svg:hover{
 
 .player{
     padding: 20px 30px;
-    background: url("./src/player-bg.png");
+    background: url("/src/player-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -184,7 +184,7 @@ footer{
 
 .cont-2{
     display: flex;
-    background: url(./src/bg-2.png);
+    background: url(/src/bg-2.png);
     background-size: cover;
     overflow: hidden;
     background-position: center;
