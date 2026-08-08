@@ -29,7 +29,7 @@ songs.forEach((song) => {
             btn.style.background = "#d41020e3"
         })
 
-        audio.src = `/music/${song.file}.mp3`;
+        audio.src = `./music/${song.file}.mp3`;
         audio.play();
         play.innerHTML = "Pause"
 
