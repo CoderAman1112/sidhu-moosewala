@@ -16,7 +16,7 @@ const songs = [
 ];
 
 const audio = new Audio();
-audio.src = `/music/song1.mp3`;
+audio.src = `./music/song1.mp3`;
 
 songs.forEach((song) => {
     const btn = document.querySelector("." + song.class);
